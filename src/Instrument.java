@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class Instrument {
+public class Instrument implements Connectable{
     String name;
     float voltage;
     float amperage;
@@ -11,4 +11,6 @@ public class Instrument {
     boolean hasPassThrough;
     ArrayList<Phase> phase;
     ArrayList<Stipulation> stipulation;
+
+
 }
