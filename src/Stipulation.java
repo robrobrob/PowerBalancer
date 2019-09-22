@@ -1,0 +1,3 @@
+public enum Stipulation {
+    ONLY1PERBREAKOUT, ONLYSAMEONBREAKOUT
+}
